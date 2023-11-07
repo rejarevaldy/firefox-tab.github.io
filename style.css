@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: medium;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  margin:auto;
+
+  background-color: #1E2021;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+}
+
+.greet {
+  margin: auto auto 1rem auto;
+  color: #c6d08a;
+}
+
+.search, .search:active .search:focus{
+  text-align: center;
+  margin: 0 auto auto auto;
+  height: 5vw;
+  width: 80vw;
+  
+  background-color: #1E2021;
+  color: #c6d08a;
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+
+  border: none;
+  outline: 0;
+}
